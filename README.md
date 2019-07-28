@@ -19,7 +19,7 @@
         - VPN
         - SSR
     - 虚拟机实现桥接连接
-- [操作系统](OS/os.md)(预备) ![OS](PNG/OS.png)
+- [操作系统](OS/os.md)(预备)
     - 历史
         - 无操作系统
             - 手工
@@ -34,6 +34,4 @@
         - 分布式操作系统
         - 多处理机系统
         - 嵌入式操作系统
-    - [Linux系统](OS/Linux/linux.md)
-        - Open source: Free, go, free !
-
+    - [Linux系统](OS/Linux/linux.md): Free, go, free !
