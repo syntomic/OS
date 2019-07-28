@@ -132,7 +132,7 @@
 - 目录与文件
     - 目录常用指令：`cd` `pwd` `mkdir` `rmdir`(空) `rm -r`
     - 特殊目录：`.` `..` `-` `~`
-    - 执行文件路径(环境)变量$PATH：`echo $PATH`
+    - 执行文件路径(环境)变量PATH：`echo $PATH`
     - 文件常用命令：`ls` `cp` `rm` `mv`
     - 取得路径的文件名和目录名称:`basename` `dirname`
     - 文件时间参数：`atime` `ctime` `mtime`
@@ -243,7 +243,7 @@
             - 命名别名设定:`alias` `unalias`
             - 前一个指令执行完毕后的回传值：`$?`
         - 操作环境：`login shell` vs `non-login shell`
-            - 陆军与指令搜寻顺序
+            - 指令搜寻顺序
                 - 以相对/绝对路径执行指令
                 - 由alias找到该指令来执行
                 - 由bash内建的builtin指令来执行
