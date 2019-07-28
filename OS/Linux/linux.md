@@ -367,9 +367,8 @@
           - 差异备份
       - 常用工具： `dd` `cpio` `tar` `xfsdump`
 ## 软件安装
-- 源码安装
-    - Tarball：压缩的具有原始码的文件
-        - 编译过程  ![编译](../../PNG/compile.PNG)
+- 源码安装 ![编译](../../PNG/compile1.PNG)
+    - Tarball：压缩的具有原始码的文件  
         - 指令：`make` ![make](../../PNG/make.PNG)
         - 函式库
             - 动态函式库：`.so`
