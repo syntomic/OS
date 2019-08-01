@@ -222,7 +222,7 @@
         - ARP高速缓存:IP地址到硬件地址的映射表,有生存时间,同一局域网
     - IP数据报格式 ![IP数据报格式](../PNG/IP.PNG)
         - MTU:数据帧中的数据字段的最大长度
-    - IP层转发分组流程 ![Route](../PNG/Route.png)
+    - IP层转发分组流程 ![Route](../PNG/route1.png)
         - 特定主机路由:对特定的目的主机指明一个路由
         - 默认路由(default route)
         - 分组转发算法
