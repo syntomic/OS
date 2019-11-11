@@ -5,7 +5,7 @@
     - Unix
         - 所有的程序或系统装置都是文件
         - 不管构建编辑器还是附属文件,所写的程序只有一个目的,且要有效地完成目标
-    - GNU(GNU's Not Unix)计划: 建立一个自由.开放的Unix操作系统
+    - GNU(GNU's Not Unix)计划: 建立一个自由, 开放的Unix操作系统
         - 重要软件
             - 编辑器：Emacs
             - C编译器：GCC
@@ -383,6 +383,11 @@
  
 ## Linux 核心编译与管理
 - 核心：`/lib/modules/$(uname -r)/kernel/` ![内核](../../PNG/kernel.PNG)
+- 链接 ![LINK](../../PNG/LINK.png)
+  - 进程状态 ![Status](../../PNG/Status.png)
+      - 孤儿进程: 一个父进程退出，而它的一个或多个子进程还在运行,被init进程收养
+      - 僵尸进程: 子进程退出，而父进程并没有调用`wait()`或`waitpid()`，那么子进程的进程描述符仍然保存在系统中
+          - SIGCHLD
 
 
 ## 服务器架构
